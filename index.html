@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Put your description here.">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/fontawesome.min.css" integrity="sha512-UuQ/zJlbMVAw/UU8vVBhnI4op+/tFOpQZVT+FormmIEhRSCnJWyHiBbEVgM4Uztsht41f3FzVWgLuwzUqOObKw==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    <link rel="stylesheet" href="https://cdn.lineicons.com/4.0/lineicons.css">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+    <div class="container" id="container">
+        <div class="form-container register-container">
+            <form action="#">
+                <h1>Create Account</h1>
+                <div class="input-icon">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" placeholder="UserName" required />
+                </div>
+                <div class="input-icon">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" placeholder="Email" required />
+                </div>
+                <div class="input-icon">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" placeholder="password" required maxlength="12" min="5" />
+                </div>
+                <p class="login-paragraph">Already have an account? <p class="login-link">login</p></p>
+                <button>SIGN-UP</button>
+                <span>or use your account</span> 
+                <div class="social-container">
+                    <a href="https://www.facebook.com/profile.php?id=100054518036315&mibextid=ZbWKwL" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.linkedin.com/in/ahmed-zamzam-986b912a5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="tel:01099217706" class="social"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/a.abdalrhman.badr?igsh=NGc4N2VkcW82dXFv" class="social"><i class="fab fa-instagram instagram-icon"></i></a>
+                    <a href="https://x.com/omar_ehab14?t=g2vIb1EcNmRlrKkcBgJdjQ&s=09" class="social"><i class="fab fa-twitter-square twitter-icon"></i></a>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-container login-container">
+            <form action="#">
+                <h1>Login</h1>
+                <div class="input-icon">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" placeholder="Email" required >
+                </div>
+                <div class="input-icon">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" placeholder="Password" required >
+                </div>
+                <div class="content">
+                    <div class="checkbox">
+                        <input type="checkbox" name="checkbox" id="checkbox" >
+                        <label for="checkbox"> Remember me </label>
+                    </div>
+                    <div class="pass-link">
+                        <a href="#">Forgot password?</a>
+                    </div>
+                </div>
+                <p class="sign-up-paragraph">Create you Account <p class="sign-up-link">sign-up</p></p>
+                <button>LOGIN</button>
+                <span>or use your account</span>
+                <div class="social-container">
+                    <a href="https://www.facebook.com/profile.php?id=100054518036315&mibextid=ZbWKwL" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.linkedin.com/in/ahmed-zamzam-+986b912a5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="tel:01099217706" class="social"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/a.abdalrhman.badr?igsh=NGc4N2VkcW82dXFv" class="social"><i class="fab fa-instagram instagram-icon"></i></a>
+                    <a href="https://x.com/omar_ehab14?t=g2vIb1EcNmRlrKkcBgJdjQ&s=09" class="social"><i class="fab fa-twitter-square twitter-icon"></i></a>
+                </div>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1 class="title">Hello <br> Friends</h1>
+                    <p>if you have an account, Login here and have fun</p>
+                    <button class="ghost" id="login">LOGIN
+                    <i class="lni lni-arrow-left login"></i>
+                    </button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                <h1 class="title">Start your<br> journey now</h1>
+                    <p>if you don't have an account yet, join usand start your journey</p>
+                    <button class="ghost" id="register">SIGN-UP
+                    <i class="lni lni-arrow-right register"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js">
+        
+    </script>
+</body>
+</html>
